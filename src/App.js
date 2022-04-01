@@ -8,6 +8,9 @@ import HandleEvent from './HandleEvent/HandleEvent';
 import StateDemo from './StateDemo/StateDemo';
 import StyleComponent from './StyleComponent/StyleComponent';
 import RenderArray from './RenderArray/RenderArray';
+import DemoProps from './Props/DemoProps/DemoProps';
+import ShoesShop from './Props/ShoesShop/ShoesShop';
+import BaiTapXemChiTiet from './Props/BaiTapXemChiTiet/BaiTapXemChiTiet';
 
 function App() {
   return (
@@ -18,7 +21,10 @@ function App() {
       {/* <StateDemo /> */}
       {/* <StyleComponent /> */}
       {/* <p className='text-red'>app component</p> */}
-      <RenderArray />
+      {/* <RenderArray /> */}
+      {/* <DemoProps /> */}
+      {/* <ShoesShop /> */}
+      <BaiTapXemChiTiet />
     </div>
   );
 }
