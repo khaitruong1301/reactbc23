@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 
 export default class SanPham extends Component {
 
-
+    
     render() {
         let {phone} = this.props;
         return (
@@ -16,6 +16,10 @@ export default class SanPham extends Component {
                     <button className='btn btn-success' onClick={() => {
                         this.props.xemChiTiet(phone)
                     }}>Xem chi tiết</button>
+
+                    <button onClick={()=>{
+                        this.props.themGioHang(phone)
+                    }}className='btn btn-danger ml-2'> <i className="fa fa-cart-arrow-down mr-2"></i>Thêm giỏ hàng</button>
                 </div>
             </div>
         )
