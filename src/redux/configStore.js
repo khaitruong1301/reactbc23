@@ -2,6 +2,7 @@ import { combineReducers, createStore } from 'redux'
 import { gameXucXacReducer } from './reducers/gameXucXacReducer';
 import { gioHangReducer } from './reducers/gioHangReducer';
 import { stateNumber } from './reducers/numberReducer';
+import { quanLyNguoiDungReducer } from './reducers/quanLyNguoiDungReducer';
 import { stateImgCar } from './reducers/stateImgCarReducer';
 
 const rootReducer = combineReducers({
@@ -9,7 +10,8 @@ const rootReducer = combineReducers({
     stateNumber: stateNumber,
     stateImgCar: stateImgCar,
     gioHangReducer:gioHangReducer,
-    gameXucXacReducer
+    gameXucXacReducer,
+    quanLyNguoiDungReducer:quanLyNguoiDungReducer
 
 
 
