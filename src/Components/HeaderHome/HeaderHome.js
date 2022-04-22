@@ -29,10 +29,10 @@ export default class HeaderHome extends Component {
                             <NavLink activeStyle={{borderRadius:'10px'}} activeClassName='bg-white text-dark' className="nav-link" to="/btqlnd">React form</NavLink>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lifecycle - hooks</a>
                             <div className="dropdown-menu" aria-labelledby="dropdownId">
-                                <a className="dropdown-item" href="#">Action 1</a>
-                                <a className="dropdown-item" href="#">Action 2</a>
+                                <NavLink className="dropdown-item" to="/lifecycle">Lifecycle</NavLink>
+                              
                             </div>
                         </li>
                     </ul>
