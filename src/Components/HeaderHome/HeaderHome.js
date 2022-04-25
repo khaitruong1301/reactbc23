@@ -32,7 +32,11 @@ export default class HeaderHome extends Component {
                             <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lifecycle - hooks</a>
                             <div className="dropdown-menu" aria-labelledby="dropdownId">
                                 <NavLink className="dropdown-item" to="/lifecycle">Lifecycle</NavLink>
-                              
+                                <NavLink className="dropdown-item" to="/useState">useState</NavLink>
+                                <NavLink className="dropdown-item" to="/useeffect">useEffect</NavLink>
+                                <NavLink className="dropdown-item" to="/apircc">To do app RCC</NavLink>
+                                <NavLink className="dropdown-item" to="/apirfc">To do app Rfc</NavLink>
+
                             </div>
                         </li>
                     </ul>
